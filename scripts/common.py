@@ -8,18 +8,18 @@ from packaging.version import Version
 key_exchanges_oqs = [
 ##### OQS_TEMPLATE_FRAGMENT_KEX_ALGS_START
     # post-quantum key exchanges
-    'frodo640aes','frodo640shake','frodo976aes','frodo976shake','frodo1344aes','frodo1344shake','mlkem512','mlkem768','mlkem1024','bikel3','bikel5',
+    'mlkem512','mlkem768','mlkem1024','bikel3','hqc128','hqc192','hqc256',
     # post-quantum + classical key exchanges
-    'p256_frodo640aes','x25519_frodo640aes','p256_frodo640shake','x25519_frodo640shake','p384_frodo976aes','x448_frodo976aes','p384_frodo976shake','x448_frodo976shake','p521_frodo1344aes','p521_frodo1344shake','p256_mlkem512','x25519_mlkem512','bp256_mlkem512','p384_mlkem768','x448_mlkem768','bp384_mlkem768','X25519MLKEM768','SecP256r1MLKEM768','p521_mlkem1024','SecP384r1MLKEM1024','bp512_mlkem1024','p384_bikel3','x448_bikel3','p521_bikel5',
+    'p256_mlkem512','x25519_mlkem512','bp256_mlkem512','p384_mlkem768','x448_mlkem768','bp384_mlkem768','X25519MLKEM768','SecP256r1MLKEM768','p521_mlkem1024','SecP384r1MLKEM1024','bp512_mlkem1024','p384_bikel3','x448_bikel3','p256_hqc128','x25519_hqc128','p384_hqc192','x448_hqc192','p521_hqc256',
 ##### OQS_TEMPLATE_FRAGMENT_KEX_ALGS_END
 ]
 signatures_oqs = [
     'ecdsap256', 'rsa3072',
 ##### OQS_TEMPLATE_FRAGMENT_SIG_ALGS_START
     # post-quantum signatures
-    'mldsa44','mldsa65','mldsa87','falcon512','falconpadded512','falcon1024','falconpadded1024','sphincssha2128fsimple','sphincssha2128ssimple','sphincssha2192fsimple','sphincsshake128fsimple','mayo1','mayo2','mayo3','mayo5','CROSSrsdp128balanced','OV_Ip_pkc','OV_Ip_pkc_skc','snova2454','snova2454esk','snova37172','snova2455','snova2965',
+    'mldsa44','mldsa65','mldsa87',
     # post-quantum + classical signatures
-    'p256_mldsa44','rsa3072_mldsa44','p384_mldsa65','p521_mldsa87','p256_falcon512','rsa3072_falcon512','p256_falconpadded512','rsa3072_falconpadded512','p521_falcon1024','p521_falconpadded1024','p256_sphincssha2128fsimple','rsa3072_sphincssha2128fsimple','p256_sphincssha2128ssimple','rsa3072_sphincssha2128ssimple','p384_sphincssha2192fsimple','p256_sphincsshake128fsimple','rsa3072_sphincsshake128fsimple','p256_mayo1','p256_mayo2','p384_mayo3','p521_mayo5','p256_OV_Ip_pkc','p256_OV_Ip_pkc_skc','p256_snova2454','p256_snova2454esk','p256_snova37172','p384_snova2455','p521_snova2965',
+    'p256_mldsa44','rsa3072_mldsa44','p384_mldsa65','p521_mldsa87',
     ##### OQS_TEMPLATE_FRAGMENT_SIG_ALGS_END
 ]
 
