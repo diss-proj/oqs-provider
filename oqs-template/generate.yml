@@ -448,7 +448,7 @@ kems:
     nid: '65048'
     nid_hybrid: '65049'
     oqs_alg: 'OQS_KEM_alg_hqc_128'
-    enable_kem: false
+    enable_kem: true
     enable_tls: true
     extra_nids:
       current:
@@ -472,7 +472,7 @@ kems:
     nid: '65051'
     nid_hybrid: '65052'
     oqs_alg: 'OQS_KEM_alg_hqc_192'
-    enable_kem: false
+    enable_kem: true
     enable_tls: true
     extra_nids:
       current:
@@ -496,7 +496,7 @@ kems:
     nid: '65054'
     nid_hybrid: '65055'
     oqs_alg: 'OQS_KEM_alg_hqc_256'
-    enable_kem: false
+    enable_kem: true
     enable_tls: true
     extra_nids:
       old:
