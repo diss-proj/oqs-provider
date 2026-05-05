@@ -5,5 +5,7 @@
 
 source build_config.sh
 
+echo $liboqs_DIR
+
 source scripts/fullbuild.sh
 

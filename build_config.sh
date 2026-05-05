@@ -1,9 +1,11 @@
 #! /bin/bash
 
 # custom liboqs directory config
-liboqs_DIR="./liboqs"
+liboqs_DIR="/home/diss/dev/oqs-provider/liboqs/build/"
 # version configuration
 
-LIBOQS_BRANCH="0.15.0"
+# Debugging
+CMAKE_PARAMS="--debug-find-pkg=liboqs -DCMAKE_PREFIX_PATH='/home/diss/dev/oqs-provider/liboqs/build/src/'"
+
 #OPENSSL_BRANCH="openssl-3.5.5"
 
