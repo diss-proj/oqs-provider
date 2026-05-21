@@ -7,5 +7,5 @@ liboqs_DIR="/home/diss/dev/oqs-provider/liboqs/build/"
 # Debugging
 CMAKE_PARAMS="--debug-find-pkg=liboqs -DCMAKE_PREFIX_PATH='/home/diss/dev/oqs-provider/liboqs/build/src/'"
 
-#OPENSSL_BRANCH="openssl-3.5.5"
+OPENSSL_BRANCH="openssl-3.4.5"
 
